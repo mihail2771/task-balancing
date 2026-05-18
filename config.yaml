@@ -1,0 +1,8 @@
+env: "dev"
+
+database-url: "postgres://user:password@localhost:5432/taskdb?sslmode=disable"
+
+http-server:
+  address: "localhost:8082"
+  timeout: 4s
+  idle_timeout: 60s
